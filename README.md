@@ -11,10 +11,10 @@ Your goal is to find the root cause of the bug described below, then fix it and 
 When pasting multiple cells into a spreadsheet after having selected a block of cells to replace, the component appears to always paste the block of cells from the first/"start" cell that the user clicked when making the selection, instead of using the top-left-most selection as the starting point.
 
 **Expected behavior**
-[Expected behavior](https://p194.p3.n0.cdn.getcloudapp.com/items/NQuKkp2X/Screen%20Recording%202020-11-19%20at%2009.17.28%20AM.gif)
+![Expected behavior](https://p194.p3.n0.cdn.getcloudapp.com/items/NQuKkp2X/Screen%20Recording%202020-11-19%20at%2009.17.28%20AM.gif?v=77603fc4b9a0cf9ff11c331821ee92d0)
 
 **Actual behavior**
-[Actual behavior](https://p194.p3.n0.cdn.getcloudapp.com/items/rRu0ymyz/Screen%20Recording%202020-11-19%20at%2009.18.06%20AM.gif)
+![Actual behavior](https://p194.p3.n0.cdn.getcloudapp.com/items/rRu0ymyz/Screen%20Recording%202020-11-19%20at%2009.18.06%20AM.gif?v=31eaecd03637676dbec78c97dd88c5e8)
 
 If you'd like to reproduce it yourself, you can navigate to the `docs` folder and run `yarn install`, then `yarn start`. This will open the examples page locally on your machine, and you'll be able to play around.
 
